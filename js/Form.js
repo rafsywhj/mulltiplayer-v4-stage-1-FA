@@ -36,7 +36,7 @@ class Form {
       this.greeting.html(message);
       player.name = this.input.value();
       player.index = 1;
-      player.addPlayer();
+      //player.addPlayer();
     });
   }
 
