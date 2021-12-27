@@ -28,14 +28,7 @@ class Form {
 
   handleMousePressed() {
     this.playButton.mousePressed(() => {
-      this.input.hide();
-      this.playButton.hide();
-      var message = `
-      Hello ${this.input.value()}
-      </br>wait for another player to join...`;
-      this.greeting.html(message);
-      player.name = this.input.value();
-      player.index = 1;
+     
       //player.addPlayer();
     });
   }
@@ -43,6 +36,6 @@ class Form {
   display() {
    this.setElementsPosition();
     //this.setElementsStyle();
-    this.handleMousePressed();
+    
   }
 }
