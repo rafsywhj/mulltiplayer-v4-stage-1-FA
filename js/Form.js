@@ -28,6 +28,11 @@ class Form {
 
   handleMousePressed() {
     this.playButton.mousePressed(() => {
+      
+      
+      var message = `
+      Hello ${this.input.value()}
+      </br>wait for another player to join...`;
      
       //player.addPlayer();
     });
